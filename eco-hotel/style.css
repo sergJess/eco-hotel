@@ -3091,6 +3091,7 @@ S .doing-block__element-1 {
   letter-spacing: 0.205em;
   text-transform: uppercase;
   color: #565656;
+  background-color: transparent;
   padding: 27px 30px;
   margin-top: 795px;
   user-select: none;

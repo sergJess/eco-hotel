@@ -146,45 +146,45 @@
         </div>
     </div>
 </footer>
-<form class="pop-up" style="display: none">
+<form class="pop-up" style="display: none" id="form-reserve">
     <div class="pop-up__body">
         <div class="pop-up__close" onclick="pupUp()"></div>
         <div class="pop-up__title">Вы можете оставить заявку на определенную дату и мы подберем для Вас лучшее предложение</div>
         <div class="pop-up__input-container">
             <div class="pop-up__input">
                 <div class="pop-up__input__title">Ваше имя:</div>
-                <input type="text" placeholder="Иван Иванов">
+                <input type="text" placeholder="Иван Иванов" required>
             </div>
             <div class="pop-up__input">
                 <div class="pop-up__input__title">Ваш телефон:</div>
-                <input type="text" placeholder="+7 950-000-00-00">
+                <input type="text" placeholder="+7 950-000-00-00" required>
             </div>
             <div class="pop-up__input">
                 <div class="pop-up__input__title">Email:</div>
-                <input type="text" placeholder="ecohotel@yandex.ru">
+                <input type="email" placeholder="ecohotel@yandex.ru" required>
             </div>
             <div class="pop-up__input">
                 <div class="pop-up__input__title">Дата заезда</div>
-                <input type="text" placeholder="06.12.2021">
+                <input type="text" placeholder="06.12.2021" required>
             </div>
             <div class="pop-up__input">
                 <div class="pop-up__input__title">Дата отъезда</div>
-                <input type="text" placeholder="10.12.2021">
+                <input type="text" placeholder="10.12.2021" required>
             </div>
             <div class="pop-up__input">
                 <div class="pop-up__input__title">Количество взрослых</div>
                 <div class="poup-up__count">
-                    <div class="poup-up__count-minus-icon" onclick=increaceCount(this) data-count="-">-</div>
+                    <div class="poup-up__count-minus-icon" onclick="increaceCount(this)" data-count="-">-</div>
                     <div class="poup-up__count-value" data-count-value="2">2</div> 
-                    <div class="poup-up__count-plus-icon" onclick=increaceCount(this) data-count="+">+</div>
+                    <div class="poup-up__count-plus-icon" onclick="increaceCount(this)" data-count="+">+</div>
                 </div>
             </div>
             <div class="pop-up__input">
                 <div class="pop-up__input__title">Количество детей</div>
                 <div class="poup-up__count">
-                    <div class="poup-up__count-minus-icon" onclick=increaceCount(this) data-count="-">-</div>
+                    <div class="poup-up__count-minus-icon" onclick="increaceCount(this)" data-count="-">-</div>
                     <div class="poup-up__count-value" data-count-value="2">2</div> 
-                    <div class="poup-up__count-plus-icon" onclick=increaceCount(this) data-count="+">+</div>
+                    <div class="poup-up__count-plus-icon" onclick="increaceCount(this)" data-count="+">+</div>
                 </div>
             </div>
             <div class="pop-up__input">
@@ -192,7 +192,7 @@
                 <input type="text" placeholder="Введите текст">
             </div>
         </div>
-        <div class="pop-up__button" onclick="pupUp()">забронировать</div>
+        <button class="pop-up__button" onclick="()=>{console.log('Jess')}" type="submit">забронировать</button>
     </div>
 </form>
 
