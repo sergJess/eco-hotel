@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <script src="scripts/anime.min.js"></script>
+    <script src="scripts/swiper-bundle.min.js"></script>
+</head>
+<body>
+<div class="mobile-menu">
+    <div class="mobile-menu__body">
+        <div class="mobile-menu__close" onclick="mobileMenuAction()"></div>
+        <div class="mobile-menu__list">
+            <a href="about.html" class="mobile-menu__item">о нас</a>
+            <a href="rooms.html" class="mobile-menu__item mobile-menu__menu-button_active">номера и цены</a>
+            <a href="store.html" class="mobile-menu__item">эко магазин</a>
+            <a href="about.html" class="mobile-menu__item">фотогалерея</a>
+            <a href="contacts.html" class="mobile-menu__item">контакты</a>
+        </div>
+        <div class="mobile-menu__button" onclick="pupUp()">забронировать</div>
+        <div class="mobile-menu__link-list">
+            <a href="tel:+79155555555" class="mobile-menu__phone-number">
+                <div class="mobile-menu__phone-number-icon"></div>
+                +7 915 555-55-55
+            </a>
+            <a href="" class="mobile-menu__instagram-link"></a>
+            <a href="" class="mobile-menu__telegram-link"></a>
+        </div>
+
+        <div class="mobile-menu__location">
+            <div class="mobile-menu__location-icon"></div>
+            <div class="mobile-menu__location-text">Московская область, ферма Ильинское, ул. Красного Знамени, стр.
+                100
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="menu-block block">
+    <div class="block__body">
+        <div class="menu-block__top-slice">
+            <div class="menu-block__location">
+                <div class="menu-block__location-icon"></div>
+                Московская область, ферма Ильинское, ул. Красного Знамени, стр. 100
+            </div>
+            <a href="tel:+79671581113" class="menu-block__phone">
+                <div class="menu-block__phone-icon"></div>
+                +7 967 158-11-13
+            </a>
+            <a href="" class="menu-block__instagram-icon"></a>
+            <a href="" class="menu-block__telegram-icon"></a>
+            <div class="menu-block__mobile-button"  onclick="mobileMenuAction()"></div>
+        </div>
+        <div class="menu-block__bottom-slice">
+            <a class="menu-block__logo" href="index.html"></a>
+            <div class="menu-block__menu-list">
+                <a href="about.html" class="menu-block__menu-button">о нас</a>
+                <a href="rooms.html" class="menu-block__menu-button menu-block__menu-button_active">номера и цены</a>
+                <a href="store.html" class="menu-block__menu-button">эко магазин</a>
+                <a href="about.html" class="menu-block__menu-button">фотогалерея</a>
+                <a href="contacts.html" class="menu-block__menu-button">контакты</a>
+            </div>
+            <div class="button button_menu_black" onclick="pupUp()">забронировать</div>
+        </div>
+    </div>
+</div>
+<div class="rooms-block block">
+    <div class="block__body">
+        <h1>Номера</h1>
+        <p>К услугам гостей 4 комфортабельных домике с 10 просторными и светлыми комнатами</p>
+        <a class="button" onclick="pupUp()">забронировать</a>
+    </div>
+</div>
+<div class="rooms-list block">
+    <div class="block__body">
+        <div class="rooms-list__dual-section">
+            <div class="rooms-list__dual-section-left">
+                <div class="gallery">
+                    <div class="gallery__top-slice">
+                        <div class="gallery__left-button"></div>
+                        <div class="gallery__images swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="gallery__images-item" style="background-image: url('images/rooms-page/2.png');"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery__images-item" style="background-image: url('images/rooms-page/1.png');"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery__images-item" style="background-image: url('images/rooms-page/2.png');"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery__images-item" style="background-image: url('images/rooms-page/1.png');"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery__images-item" style="background-image: url('images/rooms-page/2.png');"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery__images-item" style="background-image: url('images/rooms-page/1.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery__right-button"></div>
+                    </div>
+                    <div class="gallery__bottom-slice">
+                        <div class="gallery__mobile-left-button"></div>
+                        <div class="gallery__points">
+                            <div class="gallery__point"></div>
+                            <div class="gallery__point"></div>
+                            <div class="gallery__point"></div>
+                        </div>
+                        <div class="gallery__mobile-right-button"></div>
+                    </div>
+                </div>
+                <div class="button button_white button_mobile" onclick="pupUp()">забронировать</div>
+            </div>
+            <div class="rooms-list__dual-section-right">
+                <h2>Single Room</h2>
+                <p>Большая кровать, зона отдыха с мягким креслом, письменный стол, ванная комната с душем.</p>
+                <div class="button button_white" onclick="pupUp()">забронировать</div>
+            </div>
+        </div>
+        <div class="rooms-list__dual-section">
+            <div class="rooms-list__dual-section-left">
+                <h2>Comfort Single Room</h2>
+                <p>Большая кровать, зона отдыха с мягким креслом, письменный стол, ванная комната с душем.
+                    <br><br>
+                    Стоимость от 3500р./сутки</p>
+                <div class="button button_white" onclick="pupUp()">забронировать</div>
+            </div>
+            <div class="rooms-list__dual-section-right">
+                <div class="gallery">
+                    <div class="gallery__top-slice">
+                        <div class="gallery__left-button"></div>
+                        <div class="gallery__images swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="gallery__images-item" style="background-image: url('images/rooms-page/2.png');"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery__images-item" style="background-image: url('images/rooms-page/1.png');"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery__images-item" style="background-image: url('images/rooms-page/2.png');"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery__images-item" style="background-image: url('images/rooms-page/1.png');"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery__images-item" style="background-image: url('images/rooms-page/2.png');"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery__images-item" style="background-image: url('images/rooms-page/1.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery__right-button"></div>
+                    </div>
+                    <div class="gallery__bottom-slice">
+                        <div class="gallery__mobile-left-button"></div>
+                        <div class="gallery__points">
+                            <div class="gallery__point"></div>
+                            <div class="gallery__point"></div>
+                            <div class="gallery__point"></div>
+                        </div>
+                        <div class="gallery__mobile-right-button"></div>
+                    </div>
+                </div>
+                <div class="button button_white button_mobile" onclick="pupUp()">забронировать</div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer-block block">
+    <div class="block__body">
+        <div class="footer-block__top-slice">
+            <a href="index.html" class="footer-block__logo"></a>
+            <div class="footer-block__menu-list">
+                <a href="about.html" class="footer-block__menu-button">о нас</a>
+                <a href="rooms.html" class="footer-block__menu-button">номера и цены</a>
+                <a href="store.html" class="footer-block__menu-button">эко магазин</a>
+                <a href="about.html" class="footer-block__menu-button">фотогалерея</a>
+                <a href="contacts.html" class="footer-block__menu-button">контакты</a>
+            </div>
+        </div>
+        <div class="footer-block__bottom-slice">
+            <a href="tel:+79155555555" class="footer-block__phone-text">
+                <div class="footer-block__phone-icon"></div>
+                +7 915 555-55-55</a>
+            <div class="footer-block__instogram-icon"></div>
+            <div class="footer-block__telegram-icon"></div>
+            <div class="footer-block__location-text">
+                <div class="footer-block__location-icon"></div>
+                Московская область, ферма Ильинское, ул. Красного Знамени, стр. 100
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="pop-up" style="display: none">
+    <div class="pop-up__body">
+        <div class="pop-up__close" onclick="pupUp()"></div>
+        <div class="pop-up__title">Вы можете оставить заявку на определенную дату и мы подберем для Вас лучшее предложение</div>
+        <div class="pop-up__input-container">
+            <div class="pop-up__input">
+                <div class="pop-up__input__title">Ваше имя:</div>
+                <input type="text" placeholder="Иван Иванов">
+            </div>
+            <div class="pop-up__input">
+                <div class="pop-up__input__title">Ваш телефон:</div>
+                <input type="text" placeholder="+7 950-000-00-00">
+            </div>
+            <div class="pop-up__input">
+                <div class="pop-up__input__title">Email:</div>
+                <input type="text" placeholder="ecohotel@yandex.ru">
+            </div>
+            <div class="pop-up__input">
+                <div class="pop-up__input__title">Дата заезда</div>
+                <input type="text" placeholder="06.12.2021">
+            </div>
+            <div class="pop-up__input">
+                <div class="pop-up__input__title">Дата отъезда</div>
+                <input type="text" placeholder="10.12.2021">
+            </div>
+            <div class="pop-up__input">
+                <div class="pop-up__input__title">Количество взрослых</div>
+                <div class="poup-up__count">
+                    <div class="poup-up__count-minus-icon">-</div>
+                    2
+                    <div class="poup-up__count-plus-icon">+</div>
+                </div>
+            </div>
+            <div class="pop-up__input">
+                <div class="pop-up__input__title">Количество детей</div>
+                <div class="poup-up__count">
+                    <div class="poup-up__count-minus-icon">-</div>
+                    2
+                    <div class="poup-up__count-plus-icon">+</div>
+                </div>
+            </div>
+            <div class="pop-up__input">
+                <div class="pop-up__input__title">Дополнительные пожелания</div>
+                <input type="text" placeholder="Введите текст">
+            </div>
+        </div>
+        <div class="pop-up__button">забронировать</div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
