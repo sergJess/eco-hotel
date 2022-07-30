@@ -20,3 +20,22 @@ function increaceCount (elem){
 
   }
 }
+
+function validateDateString(str){
+  const arr = str.split('.');
+  const length = arr.length;
+  if(length === 3){
+    const currentDate = new Date();
+   let swip = arr[0];
+   arr[0] = arr[1];
+   arr[1] = swip;
+   const orderDate = new Date(arr.join('.'));
+    return orderDate - currentDate >= 0 ? true: false;
+  }
+  return false;
+}
+
+function dateReserve(elem){
+const isValidDate = validateDateString(elem.value);
+if(!isValidDate) elem.value = '';
+}
