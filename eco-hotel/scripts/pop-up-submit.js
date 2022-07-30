@@ -26,9 +26,9 @@ function validateDateString(str){
   const length = arr.length;
   if(length === 3){
     const currentDate = new Date();
-   let swip = arr[0];
+   let swap = arr[0];
    arr[0] = arr[1];
-   arr[1] = swip;
+   arr[1] = swap;
    const orderDate = new Date(arr.join('.'));
     return orderDate - currentDate >= 0 ? true: false;
   }
@@ -38,4 +38,13 @@ function validateDateString(str){
 function dateReserve(elem){
 const isValidDate = validateDateString(elem.value);
 if(!isValidDate) elem.value = '';
+}
+
+function formPhoneFocus(elem){
+if(elem.value === '') elem.value = '+7 9';
+}
+
+function formPhoneOnInput(elem){
+  let value = elem.value;
+
 }
