@@ -535,5 +535,6 @@
         <div class="pop-up__button">забронировать</div>
     </div>
 </div>
+<?php wp_footer(); ?>
 </body>
 </html>
