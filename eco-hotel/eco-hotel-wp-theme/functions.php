@@ -2,7 +2,8 @@
 
 function eco_hotel_scripts() {
     // Theme stylesheet.
-    wp_enqueue_style( 'main-style', get_template_directory_uri() . '/css/style.css' );
+		   wp_enqueue_style( 'fonts-style', get_template_directory_uri() . '/css/fonts/stylesheet.css' );
+       wp_enqueue_style( 'main-style', get_template_directory_uri() . '/css/style.css' );
 			 wp_enqueue_style( 'swiper-style', get_template_directory_uri() . '/css/swiper-bundle.min.css' );
 				wp_enqueue_style( 'pop-up-store-style', get_template_directory_uri() . '/css/pop-up-store.css' );
 				//scripts js style

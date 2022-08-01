@@ -30,6 +30,7 @@ function validateDateString(str){
    arr[0] = arr[1];
    arr[1] = swap;
    const orderDate = new Date(arr.join('.'));
+   console.log(orderDate - currentDate)
     return orderDate - currentDate >= 0 ? true: false;
   }
   return false;

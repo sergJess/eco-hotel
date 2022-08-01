@@ -12,11 +12,11 @@
     <div class="mobile-menu__body">
         <div class="mobile-menu__close" onclick="mobileMenuAction()"></div>
         <div class="mobile-menu__list">
-            <a href="about.html" class="mobile-menu__item">о нас</a>
-            <a href="rooms.html" class="mobile-menu__item">номера и цены</a>
-            <a href="store.html" class="mobile-menu__item">эко магазин</a>
-            <a href="about.html" class="mobile-menu__item">фотогалерея</a>
-            <a href="contacts.html" class="mobile-menu__item">контакты</a>
+            <a href="about-us" class="mobile-menu__item">о нас</a>
+            <a href="rooms" class="mobile-menu__item">номера и цены</a>
+            <a href="store" class="mobile-menu__item">эко магазин</a>
+            <a href="#gallery" class="mobile-menu__item">фотогалерея</a>
+            <a href="contacts" class="mobile-menu__item">контакты</a>
         </div>
         <div class="mobile-menu__button" onclick="pupUp()">забронировать</div>
         <div class="mobile-menu__link-list">
@@ -55,11 +55,11 @@
         <div class="menu-block__bottom-slice">
             <div class="menu-block__logo menu-block__menu-button_active"></div>
             <div class="menu-block__menu-list">
-                <a href="about.html" class="menu-block__menu-button">о нас</a>
-                <a href="rooms.html" class="menu-block__menu-button">номера и цены</a>
-                <a href="store.html" class="menu-block__menu-button">эко магазин</a>
-                <a href="about.html" class="menu-block__menu-button">фотогалерея</a>
-                <a href="contacts.html" class="menu-block__menu-button">контакты</a>
+                <a href="about-us" class="menu-block__menu-button">о нас</a>
+                <a href="rooms" class="menu-block__menu-button">номера и цены</a>
+                <a href="store" class="menu-block__menu-button">эко магазин</a>
+                <a href="#gallery" class="menu-block__menu-button">фотогалерея</a>
+                <a href="contacts" class="menu-block__menu-button">контакты</a>
             </div>
             <div class="button" onclick="pupUp()">забронировать</div>
         </div>
@@ -68,7 +68,7 @@
 <div class="start-block block">
     <div class="block__body">
         <h1><span class="padding-between-letters">эко-отель</span><br><b>ДОМБРОВСКИХ</b></h1>
-        <a class="button" href="about.html">подробнее</a>
+        <a class="button" href="about-us">подробнее</a>
         <div class="start-block__right-bottom-text">Дикая природа с погружением в атмосферу нетронутой экосистемы...
         </div>
     </div>
@@ -82,16 +82,16 @@
                     <div class="gallery__images swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="gallery__images-item" style="background-image: url('images/Block-2-frist-gallery-image.png');"></div>
+                                <div class="gallery__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/Block-2-frist-gallery-image.png');"></div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="gallery__images-item" style="background-image: url('images/Block-2-frist-gallery-image.png');"></div>
+                                <div class="gallery__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/Block-2-frist-gallery-image.png');"></div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="gallery__images-item" style="background-image: url('images/Block-2-frist-gallery-image.png');"></div>
+                                <div class="gallery__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/Block-2-frist-gallery-image.png');"></div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="gallery__images-item" style="background-image: url('images/Block-2-frist-gallery-image.png');"></div>
+                                <div class="gallery__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/Block-2-frist-gallery-image.png');"></div>
                             </div>
                         </div>
                     </div>
@@ -190,22 +190,22 @@
                     <div class="doing__images">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="doing__images-item" style="background-image: url('images/doing-block-slider/1.png');"></div>
+                                <div class="doing__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/1.png');"></div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="doing__images-item" style="background-image: url('images/doing-block-slider/2.png');"></div>
+                                <div class="doing__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/2.png');"></div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="doing__images-item" style="background-image: url('images/doing-block-slider/3.png');"></div>
+                                <div class="doing__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/3.png');"></div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="doing__images-item" style="background-image: url('images/doing-block-slider/2.png');"></div>
+                                <div class="doing__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/2.png');"></div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="doing__images-item" style="background-image: url('images/doing-block-slider/1.png');"></div>
+                                <div class="doing__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/1.png');"></div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="doing__images-item" style="background-image: url('images/doing-block-slider/3.png');"></div>
+                                <div class="doing__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/3.png');"></div>
                             </div>
                         </div>
                     </div>
@@ -225,12 +225,12 @@
                 <div class="gallery__top-slice">
                     <div class="gallery__images swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><div class="doing__images-item gallery__images-item" style="background-image: url('images/doing-block-slider/1.png');"></div></div>
-                            <div class="swiper-slide"><div class="doing__images-item gallery__images-item" style="background-image: url('images/doing-block-slider/2.png');"></div></div>
-                            <div class="swiper-slide"><div class="doing__images-item gallery__images-item" style="background-image: url('images/doing-block-slider/3.png');"></div></div>
-                            <div class="swiper-slide"><div class="doing__images-item gallery__images-item" style="background-image: url('images/doing-block-slider/1.png');"></div></div>
-                            <div class="swiper-slide"><div class="doing__images-item gallery__images-item" style="background-image: url('images/doing-block-slider/2.png');"></div></div>
-                            <div class="swiper-slide"><div class="doing__images-item gallery__images-item" style="background-image: url('images/doing-block-slider/3.png');"></div></div>
+                            <div class="swiper-slide"><div class="doing__images-item gallery__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/1.png');"></div></div>
+                            <div class="swiper-slide"><div class="doing__images-item gallery__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/2.png');"></div></div>
+                            <div class="swiper-slide"><div class="doing__images-item gallery__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/3.png');"></div></div>
+                            <div class="swiper-slide"><div class="doing__images-item gallery__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/1.png');"></div></div>
+                            <div class="swiper-slide"><div class="doing__images-item gallery__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/2.png');"></div></div>
+                            <div class="swiper-slide"><div class="doing__images-item gallery__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/3.png');"></div></div>
                         </div>
                     </div>
                 </div>
@@ -287,42 +287,42 @@
     <div class="block__body">
         <div class="images-block__icons-list">
             <div class="images-block__icons-list-icon"
-                 style="background-image: url('images/lotion 1.png')">Изготовление
+                 style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/lotion-1.png')">Изготовление
                 гидролатов и лосьонов для очищения и тонизирования
                 кожи
             </div>
             <div class="images-block__icons-list-icon"
-                 style="background-image: url('images/sprites/icons/block-info-2-icons/cream-2.png')">Изготовление
+                 style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/cream-2.png')">Изготовление
                 средств вокруг глаз и для лица(маски, патчи и т.д.)
             </div>
             <div class="images-block__icons-list-icon"
-                 style="background-image: url('images/sprites/icons/block-info-2-icons/perfume-1.png')">Изготовление
+                 style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/perfume-1.png')">Изготовление
                 твердых духов для нее и для него, диффузоры для
                 освежения воздуха
             </div>
             <div class="images-block__icons-list-icon"
-                 style="background-image: url('images/sprites/icons/block-info-2-icons/cream-1.png')">Изготовление крема
+                 style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/cream-1.png')">Изготовление крема
                 для любого типа кожи(на выбор)
             </div>
             <div class="images-block__icons-list-icon"
-                 style="background-image: url('images/sprites/icons/block-info-2-icons/lotion-1.png')">Изготовление
+                 style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/lotion-1.png')">Изготовление
                 средств по уходу за телом и ногами
                 (массажные плитки, маски, баттеры, бальзамы, массажные свечи)
             </div>
             <div class="images-block__icons-list-icon"
-                 style="background-image: url('images/sprites/icons/block-info-2-icons/mushroom-1.png')">Изготовление
+                 style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/mushroom-1.png')">Изготовление
                 грибной косметики
             </div>
             <div class="images-block__icons-list-icon"
-                 style="background-image: url('images/sprites/icons/block-info-2-icons/soap-1.png')">Изготовление
+                 style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/soap-1.png')">Изготовление
                 твердого мыла
             </div>
             <div class="images-block__icons-list-icon"
-                 style="background-image: url('images/sprites/icons/block-info-2-icons/liquid-soap-1.png')">Изготовление
+                 style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/liquid-soap-1.png')">Изготовление
                 жидкого мыла
             </div>
             <div class="images-block__icons-list-icon"
-                 style="background-image: url('images/sprites/icons/block-info-2-icons/candle-1.png')">Изготовление
+                 style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/candle-1.png')">Изготовление
                 свечей с травами
             </div>
         </div>
@@ -340,7 +340,7 @@
         <div class="images-block__section images-block__section_1">
             <div class="images-block__section-left">
                 <div class="images-block__image-1"
-                     style="background-image:url('images/info-block-2-images/1.png');"></div>
+                     style="background-image:url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/1-1.png');"></div>
                 <div class="images-block__header images-block__mobile">Три дня Иван-чая
                 </div>
                 <div class="images-block__text images-block__mobile">Вы познакомитесь с этим удивительно полезным
@@ -350,7 +350,7 @@
             </div>
             <div class="images-block__section-right">
                 <div class="images-block__image-2"
-                     style="background-image:url('images/info-block-2-images/2.png');"></div>
+                     style="background-image:url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/2-1.png');"></div>
                 <div class="images-block__header">Три дня Таволги
                 </div>
                 <div class="images-block__text">Вы познакомитесь с этим удивительно полезным растением, научитесь
@@ -374,7 +374,7 @@
         <div class="images-block__section images-block__section_2">
             <div class="images-block__section-left">
                 <div class="images-block__image-3"
-                     style="background-image:url('images/info-block-2-images/3.png');"></div>
+                     style="background-image:url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/3-1.png');"></div>
             </div>
             <div class="images-block__section-right">
                 <div class="images-block__header">Изготовление косметических средств из трав для омоложения,
@@ -390,7 +390,7 @@
         <div class="images-block__section images-block__section_3">
             <div class="images-block__section-left">
                 <div class="images-block__image-4"
-                     style="background-image:url('images/info-block-2-images/4.png');"></div>
+                     style="background-image:url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/4.png');"></div>
             </div>
             <div class="images-block__section-right">
                 <div class="images-block__header">Изготовление гидролата из сезонных трав
@@ -416,31 +416,31 @@
 
     </div>
 </div>
-<div class="gallery-block block">
+<div class="gallery-block block" id="gallery">
     <div class="block__body">
         <h2>Фото и видео</h2>
         <div class="gallery-block__photos-and-videos">
             <div class="gallery-block__photos-and-videos-right">
                 <div class="gallery-block__photo"
-                     style="background-image:url('images/photo-and-video-block-images/1.png');"></div>
+                     style="background-image:url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/1-2.png');"></div>
                 <div class="gallery-block__photo"
-                     style="background-image:url('images/photo-and-video-block-images/2.png');"></div>
+                     style="background-image:url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/2-2.png');"></div>
             </div>
             <div class="gallery-block__photos-and-videos-left">
                 <div class="gallery-block__photo"
-                     style="background-image:url('images/photo-and-video-block-images/3.png');"></div>
+                     style="background-image:url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/3-2.png');"></div>
                 <div class="gallery-block__photo"
-                     style="background-image:url('images/photo-and-video-block-images/4.png');"></div>
+                     style="background-image:url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/4-1.png');"></div>
             </div>
         </div>
         <div class="gallery">
             <div class="gallery__top-slice">
                 <div class="gallery__images swiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><div class="gallery__images-item" style="background-image: url('images/photo-and-video-block-images/1.png');"></div></div>
-                        <div class="swiper-slide"><div class="gallery__images-item" style="background-image: url('images/photo-and-video-block-images/2.png');"></div></div>
-                        <div class="swiper-slide"><div class="gallery__images-item" style="background-image: url('images/photo-and-video-block-images/3.png');"></div></div>
-                        <div class="swiper-slide"><div class="gallery__images-item" style="background-image: url('images/photo-and-video-block-images/4.png');"></div></div>
+                        <div class="swiper-slide"><div class="gallery__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/1-2.png');"></div></div>
+                        <div class="swiper-slide"><div class="gallery__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/2-2.png');"></div></div>
+                        <div class="swiper-slide"><div class="gallery__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/3-2.png');"></div></div>
+                        <div class="swiper-slide"><div class="gallery__images-item" style="background-image: url('http://eco-hotel.melon.su/wp-content/uploads/2022/08/4-1.png');"></div></div>
                     </div>
                 </div>
             </div>
@@ -465,11 +465,11 @@
         <div class="footer-block__top-slice">
             <a href="index.html" class="footer-block__logo"></a>
             <div class="footer-block__menu-list">
-                <a href="about.html" class="footer-block__menu-button">о нас</a>
-                <a href="rooms.html" class="footer-block__menu-button">номера и цены</a>
-                <a href="store.html" class="footer-block__menu-button">эко магазин</a>
-                <a href="about.html" class="footer-block__menu-button">фотогалерея</a>
-                <a href="contacts.html" class="footer-block__menu-button">контакты</a>
+                <a href="about-us" class="footer-block__menu-button">о нас</a>
+                <a href="rooms" class="footer-block__menu-button">номера и цены</a>
+                <a href="store" class="footer-block__menu-button">эко магазин</a>
+                <a href="#gallery" class="footer-block__menu-button">фотогалерея</a>
+                <a href="contacts" class="footer-block__menu-button">контакты</a>
             </div>
         </div>
         <div class="footer-block__bottom-slice">
@@ -486,45 +486,45 @@
     </div>
 </footer>
 
-<div class="pop-up" style="display: none">
+<form class="pop-up" style="display: none" id="form-reserve">
     <div class="pop-up__body">
         <div class="pop-up__close" onclick="pupUp()"></div>
         <div class="pop-up__title">Вы можете оставить заявку на определенную дату и мы подберем для Вас лучшее предложение</div>
         <div class="pop-up__input-container">
             <div class="pop-up__input">
                 <div class="pop-up__input__title">Ваше имя:</div>
-                <input type="text" placeholder="Иван Иванов">
+                <input type="text" placeholder="Иван Иванов" required>
             </div>
             <div class="pop-up__input">
                 <div class="pop-up__input__title">Ваш телефон:</div>
-                <input type="text" placeholder="+7 950-000-00-00">
+                <input type="text" placeholder="+7 950-000-00-00" onfocus="formPhoneFocus(this)" required>
             </div>
             <div class="pop-up__input">
                 <div class="pop-up__input__title">Email:</div>
-                <input type="text" placeholder="ecohotel@yandex.ru">
+                <input type="email" placeholder="ecohotel@yandex.ru" required>
             </div>
             <div class="pop-up__input">
                 <div class="pop-up__input__title">Дата заезда</div>
-                <input type="text" placeholder="06.12.2021">
+                <input type="text" placeholder="06.12.2021" onchange="dateReserve(this)" required>
             </div>
             <div class="pop-up__input">
                 <div class="pop-up__input__title">Дата отъезда</div>
-                <input type="text" placeholder="10.12.2021">
+                <input type="text" placeholder="10.12.2021" onchange="dateReserve(this)" required>
             </div>
             <div class="pop-up__input">
                 <div class="pop-up__input__title">Количество взрослых</div>
                 <div class="poup-up__count">
-                    <div class="poup-up__count-minus-icon">-</div>
-                    2
-                    <div class="poup-up__count-plus-icon">+</div>
+                    <div class="poup-up__count-minus-icon" onclick="increaceCount(this)" data-count="-">-</div>
+                    <div class="poup-up__count-value" data-count-value="2">2</div> 
+                    <div class="poup-up__count-plus-icon" onclick="increaceCount(this)" data-count="+">+</div>
                 </div>
             </div>
             <div class="pop-up__input">
                 <div class="pop-up__input__title">Количество детей</div>
                 <div class="poup-up__count">
-                    <div class="poup-up__count-minus-icon">-</div>
-                    2
-                    <div class="poup-up__count-plus-icon">+</div>
+                    <div class="poup-up__count-minus-icon" onclick="increaceCount(this)" data-count="-">-</div>
+                    <div class="poup-up__count-value" data-count-value="2">2</div> 
+                    <div class="poup-up__count-plus-icon" onclick="increaceCount(this)" data-count="+">+</div>
                 </div>
             </div>
             <div class="pop-up__input">
@@ -532,9 +532,9 @@
                 <input type="text" placeholder="Введите текст">
             </div>
         </div>
-        <div class="pop-up__button">забронировать</div>
+        <button class="pop-up__button" onclick="" type="submit">забронировать</button>
     </div>
-</div>
+</form>
 <?php wp_footer(); ?>
 </body>
 </html>

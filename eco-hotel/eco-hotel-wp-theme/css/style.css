@@ -215,7 +215,7 @@ p {
   min-width: 19px;
   min-height: 14px;
   cursor: pointer;
-  background-image: url("images/gellery-move-left.svg");
+  background-image: url("../images/gellery-move-left.svg");
 }
 .gallery__right-button {
   background-size: 100%;
@@ -225,7 +225,7 @@ p {
   min-width: 19px;
   min-height: 14px;
   cursor: pointer;
-  background-image: url("images/gellery-move-right.svg");
+  background-image: url("../images/gellery-move-right.svg");
 }
 .gallery__mobile-left-button {
   background-size: 100%;
@@ -235,7 +235,7 @@ p {
   min-width: 19px;
   min-height: 14px;
   cursor: pointer;
-  background-image: url("images/gellery-move-left.svg");
+  background-image: url("../images/gellery-move-left.svg");
   display: none;
 }
 .gallery__mobile-right-button {
@@ -246,7 +246,7 @@ p {
   min-width: 19px;
   min-height: 14px;
   cursor: pointer;
-  background-image: url("images/gellery-move-right.svg");
+  background-image: url("../images/gellery-move-right.svg");
   display: none;
 }
 
@@ -286,7 +286,7 @@ p {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("images/location_icon.svg");
+  background-image: url("../images/location_icon.svg");
 }
 .menu-block__phone {
   margin-left: auto;
@@ -311,7 +311,7 @@ p {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("images/phone-icon.svg");
+  background-image: url("../images/phone-icon.svg");
 }
 .menu-block__instagram-icon {
   width: 30px;
@@ -320,7 +320,7 @@ p {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("images/instagram-link.svg");
+  background-image: url("../images/instagram-link.svg");
 }
 .menu-block__instagram-icon:last-child {
   margin-right: 0;
@@ -332,7 +332,7 @@ p {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("images/telegram-link.svg");
+  background-image: url("../images/telegram-link.svg");
   margin-right: 0;
 }
 .menu-block__telegram-icon:last-child {
@@ -344,7 +344,7 @@ p {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("images/LOGO.png");
+  background-image: url("../images/LOGO.png");
   margin-right: 86px;
 }
 .menu-block__menu-button_active {
@@ -411,25 +411,25 @@ p {
   color: #565656;
 }
 .menu-block_white .menu-block__location .menu-block__location-icon {
-  background-image: url("images/map-point-icon-black.svg");
+  background-image: url("../images/map-point-icon-black.svg");
 }
 .menu-block_white .menu-block__phone {
   color: #565656;
 }
 .menu-block_white .menu-block__phone .menu-block__phone-icon {
-  background-image: url("images/phone-icon-black.svg");
+  background-image: url("../images/phone-icon-black.svg");
 }
 .menu-block_white .menu-block__menu-button_active {
   border-bottom: 3px solid #565656;
 }
 .menu-block_white .menu-block__instagram-icon {
-  background-image: url("images/instagram-link-black.svg");
+  background-image: url("../images/instagram-link-black.svg");
 }
 .menu-block_white .menu-block__telegram-icon {
-  background-image: url("images/telegram-link-black.svg");
+  background-image: url("../images/telegram-link-black.svg");
 }
 .menu-block_white .menu-block__logo {
-  background-image: url("images/LOGO_black.svg");
+  background-image: url("../images/LOGO_black.svg");
 }
 .menu-block_white .menu-block__menu-button {
   color: #565656;
@@ -479,7 +479,7 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("images/menu-mobile.svg");
+    background-image: url("../images/menu-mobile.svg");
     margin-left: 26px;
   }
   .menu-block__logo {
@@ -492,11 +492,11 @@ p {
   }
 
   .menu-block_white .menu-block__mobile-button {
-    background-image: url("images/white-mobile-button.svg");
+    background-image: url("../images/white-mobile-button.svg");
   }
 }
 .start-block {
-  background: linear-gradient(90deg, rgba(0, 19, 8, 0.7) 0%, rgba(0, 22, 10, 0.469) 100%), url("images/home-page-header.png");
+  background: linear-gradient(90deg, rgba(0, 19, 8, 0.7) 0%, rgba(0, 22, 10, 0.469) 100%), url("../images/home-page-header.png");
   background-position: center;
   background-size: cover;
   color: #FFFFFF;
@@ -540,7 +540,7 @@ p {
   color: #427157;
   align-self: end;
   background-size: cover;
-  background-image: url("images/circle-text-bg.svg");
+  background-image: url("../images/circle-text-bg.svg");
   width: 633px;
   height: 332px;
   padding: 148px 21px 53px 120px;
@@ -663,7 +663,7 @@ p {
   }
 }
 .info-block-2 {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 7.51%, rgba(0, 0, 0, 0.5) 35.94%, rgba(0, 0, 0, 0) 93.28%), url("images/block-3-background.png");
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 7.51%, rgba(0, 0, 0, 0.5) 35.94%, rgba(0, 0, 0, 0) 93.28%), url("../images/block-3-background.png");
   background-size: cover;
   color: #FFFFFF;
 }
@@ -794,7 +794,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("images/woman.png");
+  background-image: url("../images/woman.png");
   width: 692px;
   height: 877px;
   margin-top: 246px;
@@ -1022,7 +1022,7 @@ S .doing-block__element-1 {
 }
 .programs-block {
   color: #FFFFFF;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 46.16%, rgba(0, 0, 0, 0.14) 100%), url("images/programs-block-background.png") center no-repeat;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 46.16%, rgba(0, 0, 0, 0.14) 100%), url("../images/programs-block-background.png") center no-repeat;
   background-size: cover;
 }
 .programs-block .block__body {
@@ -1072,7 +1072,7 @@ S .doing-block__element-1 {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("images/brackets.svg");
+  background-image: url("../images/brackets.svg");
   width: 111px;
   height: 111px;
   margin-left: auto;
@@ -1142,7 +1142,7 @@ S .doing-block__element-1 {
   margin-left: 11px;
   min-width: 16px;
   height: 8.62px;
-  background: no-repeat 100% center url("images/arrow.svg");
+  background: no-repeat 100% center url("../images/arrow.svg");
   display: block;
 }
 
@@ -1326,7 +1326,7 @@ S .doing-block__element-1 {
   background-position: center;
   height: 427px;
   background-size: contain;
-  background-image: url("images/block-info-2-title.svg");
+  background-image: url("../images/block-info-2-title.svg");
 }
 .images-block__separator {
   width: 100%;
@@ -1477,7 +1477,7 @@ S .doing-block__element-1 {
   background-size: cover;
   width: 100%;
   height: 592px;
-  background-image: url("images/info-block-2-images/5.png");
+  background-image: url("../images/info-block-2-images/5.png");
 }
 .images-block__green-element {
   height: 316px;
@@ -1582,7 +1582,7 @@ S .doing-block__element-1 {
     width: 100%;
     height: 194px;
     margin-top: 56px;
-    background-image: url("images/info-block-mobile-title.svg");
+    background-image: url("../images/info-block-mobile-title.svg");
     transform: scale(1.05);
   }
   .images-block__separator {
@@ -1697,7 +1697,7 @@ S .doing-block__element-1 {
     height: 438px;
     width: 100%;
     background-size: cover;
-    background-image: url("images/image20.png");
+    background-image: url("../images/image20.png");
   }
   .images-block__green-element {
     width: 190px;
@@ -1816,10 +1816,10 @@ S .doing-block__element-1 {
     margin-right: 0;
   }
   .gallery-block .gallery__right-button {
-    background-image: url("images/right-white.svg");
+    background-image: url("../images/right-white.svg");
   }
   .gallery-block .gallery__left-button {
-    background-image: url("images/left-white.svg");
+    background-image: url("../images/left-white.svg");
   }
   .gallery-block .gallery__bottom-slice {
     align-items: center;
@@ -1863,7 +1863,7 @@ S .doing-block__element-1 {
   max-height: 90px;
   width: 101px;
   height: 90px;
-  background-image: url("images/LOGO.png");
+  background-image: url("../images/LOGO.png");
 }
 .footer-block__menu-list {
   display: flex;
@@ -1904,7 +1904,7 @@ S .doing-block__element-1 {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  background-image: url("images/phone-icon.svg");
+  background-image: url("../images/phone-icon.svg");
   margin-right: 7px;
 }
 .footer-block__location-text {
@@ -1925,7 +1925,7 @@ S .doing-block__element-1 {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  background-image: url("images/location_icon.svg");
+  background-image: url("../images/location_icon.svg");
   margin-right: 13px;
 }
 .footer-block__instogram-icon {
@@ -1935,7 +1935,7 @@ S .doing-block__element-1 {
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 11px;
-  background-image: url("images/instagram-link.svg");
+  background-image: url("../images/instagram-link.svg");
   margin-left: 42px;
 }
 .footer-block__telegram-icon {
@@ -1945,7 +1945,7 @@ S .doing-block__element-1 {
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 11px;
-  background-image: url("images/telegram-link.svg");
+  background-image: url("../images/telegram-link.svg");
 }
 
 @media screen and (max-width: 1100px) {
@@ -2184,7 +2184,7 @@ S .doing-block__element-1 {
 }
 .about-start-block {
   color: #FFFFFF;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 51.3%, rgba(0, 0, 0, 0.7) 51.3%), url("images/company-page/background.png") no-repeat center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 51.3%, rgba(0, 0, 0, 0.7) 51.3%), url("../images/company-page/background.png") no-repeat center;
   background-size: cover, cover;
 }
 .about-start-block .block__body {
@@ -2250,7 +2250,7 @@ S .doing-block__element-1 {
 }
 .about-block {
   color: #FFFFFF;
-  background: linear-gradient(107.56deg, rgba(0, 0, 0, 0.7) 51.3%, rgba(0, 0, 0, 0) 100%), url("images/company-page/background-2.png") center no-repeat;
+  background: linear-gradient(107.56deg, rgba(0, 0, 0, 0.7) 51.3%, rgba(0, 0, 0, 0) 100%), url("../images/company-page/background-2.png") center no-repeat;
   background-size: cover, cover;
 }
 .about-block .block__body {
@@ -2450,7 +2450,7 @@ S .doing-block__element-1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(107.56deg, rgba(0, 0, 0, 0.7) 51.3%, rgba(0, 0, 0, 0.7) 100%), url("images/rooms-page/background.png");
+  background-image: linear-gradient(107.56deg, rgba(0, 0, 0, 0.7) 51.3%, rgba(0, 0, 0, 0.7) 100%), url("../images/rooms-page/background.png");
 }
 .rooms-block .block__body {
   min-height: 1080px;
@@ -2573,7 +2573,7 @@ S .doing-block__element-1 {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("images/phone-close.svg");
+  background-image: url("../images/phone-close.svg");
   width: 20px;
   height: 20px;
   cursor: pointer;
@@ -2665,7 +2665,7 @@ S .doing-block__element-1 {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("images/contacts/contacts-background.png");
+  background-image: url("../images/contacts/contacts-background.png");
   transform: translate(0px, 19px);
 }
 .contacts-block h2 {
@@ -2864,7 +2864,7 @@ S .doing-block__element-1 {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("images/phone-icon-black.svg");
+  background-image: url("../images/phone-icon-black.svg");
   margin-right: 9px;
 }
 .mobile-menu__instagram-link {
@@ -2873,7 +2873,7 @@ S .doing-block__element-1 {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("images/instagram-link-black.svg");
+  background-image: url("../images/instagram-link-black.svg");
   margin-left: auto;
 }
 .mobile-menu__telegram-link {
@@ -2882,7 +2882,7 @@ S .doing-block__element-1 {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("images/telegram-link-black.svg");
+  background-image: url("../images/telegram-link-black.svg");
   margin-left: 11px;
 }
 .mobile-menu__location {
@@ -2897,7 +2897,7 @@ S .doing-block__element-1 {
   background-position: center;
   background-position: 0 0;
   background-size: 14px;
-  background-image: url("images/map-point-icon-black.svg");
+  background-image: url("../images/map-point-icon-black.svg");
 }
 .mobile-menu__location-text {
   font-family: TT Norms, serif;
@@ -2915,7 +2915,7 @@ S .doing-block__element-1 {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("images/phone-close.svg");
+  background-image: url("../images/phone-close.svg");
   width: 20px;
   height: 20px;
 }
@@ -3129,7 +3129,7 @@ S .doing-block__element-1 {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("images/phone-close.svg");
+    background-image: url("../images/phone-close.svg");
     width: 20px;
     height: 20px;
   }
